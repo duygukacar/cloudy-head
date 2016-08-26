@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dark a {
+  color: white;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
