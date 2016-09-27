@@ -3,6 +3,7 @@ body {
   font-size: 18px;
   line-height: 1.25;
   font-weight: 300;
+  color: #333;
 }
 
 .wf-active body {

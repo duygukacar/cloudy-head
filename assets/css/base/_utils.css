@@ -1,6 +1,5 @@
 .is-opaque { opacity: .75 }
 .is-invisible { opacity: 0 }
-.push-down { transform: translateY(100px) }
 
 .overflow-visible { overflow: visible }
 

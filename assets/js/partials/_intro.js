@@ -25,11 +25,13 @@ function renderIntro() {
     shape.setAttribute('fill', backgrounds[i]);
   };
 
-  tl.staggerTo(
+  tl.staggerFromTo(
     shapes, 1, {
-      delay: 0.25,
-      opacity: 0.75,
-      ease: Elastic.easeOut
+      css: { y: -100, opacity: 0 }
+    }, {
+      delay: 0.24,
+      ease: Elastic.easeOut,
+      css:{ y: 0, opacity: 1 }
     }, 0.05
   );
 
@@ -37,7 +39,6 @@ function renderIntro() {
     logotype, 1, {
       delay: 0.5,
       opacity: 1,
-      y: 0,
       ease: Elastic.easeOut
     }, 0.05
   );
