@@ -31,7 +31,7 @@ function renderIntro() {
     }, {
       delay: 0.24,
       ease: Elastic.easeOut,
-      css:{ y: 0, opacity: 1 }
+      css:{ y: 0, opacity: 0.5 }
     }, 0.05
   );
 
